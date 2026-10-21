@@ -36,6 +36,15 @@ A  = 10000 + 1500          = 11500
 - **Rate** must be a number of 0 or more, given as a yearly percentage.
 - **Time** must be a number greater than 0, given in years. For months, divide by 12 (6 months = 0.5 years).
 
+## Bash script
+
+`simple-interest.sh` asks for the principal, the annual rate of interest and the time period, then prints the simple interest and the total amount.
+
+```bash
+chmod +x simple-interest.sh
+./simple-interest.sh
+```
+
 ## Sample implementation (Python)
 
 ```python
